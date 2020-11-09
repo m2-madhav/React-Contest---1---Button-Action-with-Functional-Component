@@ -18,7 +18,7 @@ function App() {
         {" "}
         click Me{" "}
       </button>
-      {change ? "" : renderPara()}
+      {change ? renderPara() : ""}
     </div>
   );
 }
